@@ -15,7 +15,7 @@ export default function Landing() {
             </a>
           </div>
           <figure className="header__img--wrapper">
-            <img src={UndrawBooks} alt="" />
+            <img src={UndrawBooks}/>
           </figure>
         </div>
       </header>
