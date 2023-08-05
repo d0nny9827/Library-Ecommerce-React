@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import UndrawBooks from "../assets/Undraw_Books.svg";
 
 export default function Landing() {
@@ -10,12 +11,12 @@ export default function Landing() {
             <h2>
               Find your dream book with <span className="purple">Library</span>
             </h2>
-            <a href="#features">
+            <Link to="/books">
               <button className="btn">Browse books</button>
-            </a>
+            </Link>
           </div>
           <figure className="header__img--wrapper">
-            <img src={UndrawBooks}/>
+            <img src={UndrawBooks} />
           </figure>
         </div>
       </header>

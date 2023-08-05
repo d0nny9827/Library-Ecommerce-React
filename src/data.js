@@ -6,6 +6,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71UypkUjStL.jpg",
     originalPrice: 49.95,
     salePrice: 14.95,
+    author : "Napoleon Hill",
     rating: 4,
   },
   {
@@ -14,6 +15,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81bGKUa1e0L.jpg",
     originalPrice: 39,
     salePrice: null,
+    author : "James Clear",
     rating: 5,
   },
   {
@@ -22,6 +24,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81gTRv2HXrL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 29,
     salePrice: null,
+    author : "David Goggins",
     rating: 5,
   },
   {
@@ -30,6 +33,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/417yjF+Z5zL.jpg",
     originalPrice: 44,
     salePrice: 19,
+    author : "Cal Newport",
     rating: 4.5,
   },
   {
@@ -38,6 +42,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71hjq42hvGL.jpg",
     originalPrice: 32,
     salePrice: null,
+    author : "Grant Cardone",
     rating: 5,
   },
   {
@@ -46,6 +51,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81qW97ndkvL.jpg",
     originalPrice: 70,
     salePrice: 12.5,
+    author : "Timothy Ferris",
     rating: 5,
   },
   {
@@ -54,6 +60,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg",
     originalPrice: 11,
     salePrice: 10,
+    author : "Robert T. Kiyosaki",
     rating: 4,
   },
   {
@@ -62,6 +69,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/61aug2ORFVL.jpg",
     originalPrice: 38,
     salePrice: 17.95,
+    author : "Ray Dalio",
     rating: 3.5,
   },
   {
@@ -70,6 +78,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71aG+xDKSYL.jpg",
     originalPrice: 35,
     salePrice: 19.95,
+    author : "Robert Greene",
     rating: 4.5,
   },
   {
@@ -78,6 +87,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71YxVWjZP1L.jpg",
     originalPrice: 40,
     salePrice: null,
+    author : "Ryan Holiday",
     rating: 5,
   },
   {
@@ -86,6 +96,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71vK0WVQ4rL.jpg",
     originalPrice: 30,
     salePrice: 20,
+    author : "Dale Carnegie",
     rating: 5,
   },
   {
@@ -94,6 +105,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71LRdEUOmNL.jpg",
     originalPrice: 30,
     salePrice: 12.95,
+    author : "Robert Greene",
     rating: 3.5,
   },
   {
@@ -102,6 +114,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81oUPEIf6OL.jpg",
     originalPrice: 32,
     salePrice: null,
+    author : "Chris Voss",
     rating: 4,
   },
   {
@@ -110,6 +123,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/61fdrEuPJwL.jpg",
     originalPrice: 10,
     salePrice: null,
+    author : "Daniel Kahneman",
     rating: 4,
   },
   {
@@ -118,6 +132,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71yv7q0Zj-L.jpg",
     originalPrice: 50,
     salePrice: 19.95,
+    author : "George Trombley",
     rating: 4,
   },
   {
@@ -126,30 +141,34 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/81uWWAHp25L.jpg",
     originalPrice: 50,
     salePrice: null,
+    author : "David Goggins",
     rating: 5,
   },
   {
     id: 17,
-    title: "Outlive : The Science & Art of Longetivity",
-    url: "https://m.media-amazon.com/images/I/71Pyj+9IPdL.jpg",
+    title: "Sam Walton: Made in America",
+    url: "https://m.media-amazon.com/images/I/81hjxa0cNFL.jpg",
     originalPrice: 18,
     salePrice: null,
+    author : "Sam Walton",
     rating: 4,
   },
   {
     id: 18,
-    title: "Remote: Office Not Required",
-    url: "https://m.media-amazon.com/images/I/71Z6P7HnsgL.jpg",
+    title: "Dotcom Secrets",
+    url: "https://m.media-amazon.com/images/I/81n1ghNY2FL.jpg",
     originalPrice: 12,
     salePrice: 7,
+    author : "Russell Brunson",
     rating: 4.5,
   },
   {
     id: 19,
-    title: "Long-Distance Real Estate Investing",
-    url: "https://store.biggerpockets.com/cdn/shop/products/Long-DistanceRealEstateInvesting_cover_1_296x.jpg?v=1617234040",
+    title: "The 7 Habits of Highly Effective People",
+    url: "https://m.media-amazon.com/images/I/81+zleD0DUL.jpg",
     originalPrice: 16,
     salePrice: null,
+    author : "Stephen R. Covey",
     rating: 3.5,
   },
   {
@@ -158,6 +177,7 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg",
     originalPrice: 26,
     salePrice: null,
+    author : "Mark Manson",
     rating: 4,
   },
   {
@@ -166,14 +186,16 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/71AHFDEpkdL.jpg",
     originalPrice: 20,
     salePrice: 17,
+    author : "",
     rating: 4,
   },
   {
     id: 22,
-    title: "Art of Seduction",
+    title: "The Art of Seduction",
     url: "https://m.media-amazon.com/images/I/51CEr3am7VL.jpg",
     originalPrice: 120,
     salePrice: 100,
+    author : "Robert Greene",
     rating: 5,
   },
   {
@@ -182,14 +204,16 @@ export const books = [
     url: "https://m.media-amazon.com/images/I/51n5C21oT7L.jpg",
     originalPrice: 50,
     salePrice: null,
+    author : "Robin Sharma",
     rating: 4,
   },
   {
     id: 24,
-    title: "The Alchemist",
-    url: "https://m.media-amazon.com/images/I/518qiLwlQ0L.jpg",
+    title: "Conscious Capitalism",
+    url: "https://m.media-amazon.com/images/I/712joYCehdL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 80,
     salePrice: null,
+    author : "John Mackey",
     rating: 4.5,
   },
 ];
